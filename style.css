@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html {
+  background: url(https://portaltest.themailshark.net/images/page.jpg) no-repeat
+    center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar {
+  background-color: rgb(72, 91, 144);
+  width: 70px;
+  height: 100vh;
+}
+
+.menu {
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: rgba(53, 75, 132);
+}
+
+
+
+.hov:hover {
+  background-color: white;
+  color: rgba(53, 75, 132);
+}
+
+.menu-name {
+  background-color: rgba(53, 75, 132);
+}
+
+.far {
+  padding: 0px 10px;
+}
+
+.client {
+  height:80px;
+}
+
+#client {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:white;
+}
+
+#portal-logo {
+  width:60%;
+  /* height:80%; */
+}
+
+#main-page {
+  /* background-color: bisque; */
+  display:flex;
+  flex:1;
+  flex-direction:column;
+}
+
+#header {
+  display:flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: end;
+  height:60px;
+  /* background-color:aqua; */
+}
+
+#body {
+  display:flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex:1;
+  /* background-color:brown */
+}
+
+#body-box {
+  width:calc(100% - 50px);
+  height:calc(100% - 25px);
+  border-radius:10px;
+  background-color:white;
+  box-shadow:rgba(22, 30, 117, 0.4) 0px 0px 20px 0px;
+}
+
+#profile {
+  display:flex;
+  align-items: center;
+  justify-content: end;
+  /* width:200px; */
+}
+
+.header-item {
+  margin-right:20px;
+}
+
+#profile-icon {
+  width:30px;
+  height:30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:50%;
+  border: 1px solid rgb(117, 92, 241);
+  /* background-color:aliceblue; */
+}
+
+#profile-name {
+  font-size: 14px;
+  margin-left:10px;
+  /* text-decoration: none; */
+  cursor:pointer;
+}
+
+#store-select {
+  width:230px;
+  /* height:30px; */
+  border:1px solid rgb(227, 198, 195);
+  background-color:white;
+  border-radius:30px;
+  padding:8px;
+  appearance: none;
+}
+
+#help-text {
+  font-size:10pt;
+  text-decoration:none;
+
+}
+
+#help-text:hover {
+  text-decoration:underline;
+}
+
+.expand {
+  position:absolute;
+  display:none;
+  align-items: center;
+  width:200px;
+  height:50px;
+  left:70px;
+  background-color:rgba(53, 75, 132);
+}
+
+.expand-title {
+  /* margin */
+  font-size:10pt;
+  margin:0px 10px;
+  text-transform:uppercase;
+}
+
+/**
+Message Overlay
+*/
+
+#overlay {
+  position:absolute;
+  /* display:flex; */
+  display:none;
+  align-items: center;
+  justify-content: center;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color:rgba(0,0,0,.7);
+  z-index:1000;
+}
+
+
+.message-container {
+  background-color:white;
+  padding:40px 40px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  max-width:300px;
+  text-align: center;
+  flex-direction:column;
+}
+
+.message-title {
+  color:rgb(53, 75, 133);
+  margin-top:0px;
+  font-weight:bolder;
+}
+
+.message {
+  margin-top:0px;
+}
+
+
+#rep-image-container {
+  width:75px;
+  height:75px;
+  border-radius:50%;
+  overflow:hidden;
+  margin:auto;
+}
+
+#rep-image {
+  width:100%;
+}
+
+.rep-name, .rep-pos, .rep-detail {
+  margin:5px 2px;
+}
+.rep-pos {
+  font-size:smaller;
+  /* font-style:italic; */
+  margin-top:0px;
+}
+
+.rep-detail {
+  font-size:smaller;
+  margin:5px;
+}
+
+.first-detail {
+  margin-top:5px;
+}
+
+.message {
+  font-size:smaller;
+}
+
+.message-button {
+  margin-top:10px;
+  width:70px;
+}
+

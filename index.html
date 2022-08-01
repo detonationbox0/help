@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Static Template</title>
+  </head>
+  <body>
+
+    <!--Display on top of everything -->
+    <div id="overlay">
+      <div class="message-container">
+        <div id="rep-content">
+          <div id="rep-image-container">
+            <img src="https://client.themailshark.net/artworkF/SR_StephenH_photo.jpg" id="rep-image" />
+          </div>
+          <p class="rep-name"><b>Stephen Hails</b></p>
+          <p class="rep-pos">Account Exectutive</p>
+          <p class="rep-detail first-detail"><b>Store:</b> Marco's Pizza - Ann Harbor - 1293</p>
+          <p class="rep-detail"><b>Email:</b> <a href="mailto:steve@themailshark.com">steve@themailshark.com</a></p>
+          <p class="rep-detail"><b>Phone:</b> <a href="tel:4842000484">(484) 200-0484</a></p>
+        </div>
+        <div id="no-rep-content">
+          <p class="message-title">Have questions or comments?</p>
+          <p class="message">You can reach us during normal business hours at <a href="tel:4846794553">(484) 679-4553</a></p>
+        </div>
+        <button class="message-button">Back</button>
+      </div>
+    </div>
+
+    <div id="container">
+      <div id="sidebar">
+        <div class="menu client">
+          <div id="client">
+            <img src="https://portaltest.themailshark.net/artworkF/marcos-logo.png" id="portal-logo" />
+          </div>
+        </div>
+        <div class="menu">
+          <i class="fas fa-store"></i>
+          <div class="expand">
+            <p class="expand-title">Dashboard</p>
+          </div>
+        </div>
+        <div class="menu">
+          <i class="fas fa-utensils"></i>
+          <div class="expand">
+            <p class="expand-title">Place an Order</p>
+          </div>
+        </div>
+        <div class="menu">
+          <i class="fas fa-chart-bar"></i>
+          <div class="expand">
+            <p class="expand-title">Reporting</p>
+          </div>
+        </div>
+        <div class="menu">
+          <i class="fas fa-cogs"></i>
+          <div class="expand">
+            <p class="expand-title">Manage Account</p>
+          </div>
+        </div>
+        <div class="menu">
+          <i class="fas fa-shopping-cart"></i>
+          <div class="expand">
+            <p class="expand-title">Shopping Cart</p>
+          </div>
+        </div>
+        <div class="menu help-button">
+          <i class="fa-solid fa-question"></i>
+          <div class="expand">
+            <p class="expand-title">Have Questions?</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="main-page">
+        <div id="header">
+          <div class="header-item" id="profile">
+
+            <div class="header-item" id="help-item">
+              <!-- <i class="fa-solid fa-question"></i> -->
+              <a href="#" class="help-button" id="help-text">Have Questions?</a>
+            </div>
+            
+            <div class="header-item">
+              <select id="store-select">
+                <option>Marco's Pizza</option>
+                <option>Topper's Pizza</option>
+                <option>Jet's Pizza</option>
+              </select>
+            </div>
+
+            <div id="profile-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <p id="profile-name">Todd Morris</p>
+          </div>
+
+        </div>
+        <div id="body">
+          <div id="body-box">
+            <button class="rep-help-button">Rep Help</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+
+    <script src="/app.js"> </script>
+
+  </body>
+</html>
