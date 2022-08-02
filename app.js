@@ -21,7 +21,7 @@ $(".help-button").on("click", () => {
 });
 
 // Show message when help things are clicked
-$(".rep-help-button").on("click", () => {
+$("#rep-help-button").on("click", () => {
     $("#overlay").css('display', 'flex').hide().fadeIn("fast");
     $("#rep-content").show();
     $("#no-rep-content").hide();
