@@ -14,14 +14,14 @@ $(".menu").hover(
 );
 
 // Show message when help things are clicked
-$(".help-button").on("click", () => {
-    $("#overlay").css('display', 'flex').hide().fadeIn("fast");
-    $("#no-rep-content").show();
-    $("#rep-content").hide();
-});
+// $(".help-button").on("click", () => {
+//     $("#overlay").css('display', 'flex').hide().fadeIn("fast");
+//     $("#no-rep-content").show();
+//     $("#rep-content").hide();
+// });
 
 // Show message when help things are clicked
-$("#rep-help-button").on("click", () => {
+$("#rep-help-button, .help-button").on("click", () => {
     $("#overlay").css('display', 'flex').hide().fadeIn("fast");
     $("#rep-content").show();
     $("#no-rep-content").hide();
